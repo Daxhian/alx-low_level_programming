@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
-*
 * main - Entry point
 *
-* Description: Prints the sizes of various types
+* Description: Prints the sizes of various C types
 *
 * Return: Always 0 (Sucess)
 */
