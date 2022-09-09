@@ -1,4 +1,9 @@
+#include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
+#include <unistd.h>
+
+#define RED "\e[0;31m"
 
 /**
 * main - Entry point
