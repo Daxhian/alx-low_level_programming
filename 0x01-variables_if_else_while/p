@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m 'Introduction to C variable, if, while and for loops'
+git push
