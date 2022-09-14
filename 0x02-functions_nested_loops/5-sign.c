@@ -3,11 +3,11 @@
 
 /**
 * print_sign - checks the sign of an integer
-* @n: the interger value is received
+* @n: the value of the interger will be received
 *
 * Return: Always 1 if n is positive
-* 		Always 0 if n is 0
-* 		Always -1 if n is negative
+* 	  Always 0 if n is 0
+* 	  Always -1 if n is negative
 */
 int print_sign(int n)
 {
