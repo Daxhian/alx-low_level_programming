@@ -1,4 +1,4 @@
-int _putchar(int i)
+char _putchar(char i)
 {
 	return (i);
 }
