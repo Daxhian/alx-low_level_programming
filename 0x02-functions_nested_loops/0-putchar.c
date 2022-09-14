@@ -8,8 +8,8 @@
 */
 int main(void)
 {
-	char *putt = putchar();
+	char c[] = task0();
 	
-	printf("%s\n", putt);
+	printf("%s\n", c);
 	return (0);
 }
