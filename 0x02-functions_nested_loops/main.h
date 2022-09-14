@@ -1,11 +1,7 @@
-int void print_alphabet(void)
-{
-	int a;
+#ifndef _main_h_
+#define _main_h_
 
-	for(a = 'a'; a <= 'z'; a++)
-	{
-		putchar(a);
-		putchar("\n");
-	}
-	return (a);
-}
+char _putchar(char c);
+void print_alphabet(void);
+
+#endif

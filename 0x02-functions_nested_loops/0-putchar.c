@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-	char *c = task0();
+	char *c = _putcha("_putchar");
 	
 	printf("%s\n", c);
 	return (0);
