@@ -3,8 +3,7 @@
 #include <ctype.h>
 
 /**
-* _islower - checks if the argument is lower or upper case
-* 
+* _islower - checks if the argument is lower or upper case 
 * @c: the interger value is received
 *
 * Return: Always 1 if argument is lower
