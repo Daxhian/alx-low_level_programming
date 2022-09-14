@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-* print_alphabe_x10 - prints the alphabet in lower case ten times
-* 
+* print_alphabet_x10 - prints the alphabet in lower case ten times
+*
 * Return: void
 */
 void print_alphabet_x10(void)
