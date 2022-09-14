@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-	char c[] = task0();
+	char *c = task0();
 	
 	printf("%s\n", c);
 	return (0);
