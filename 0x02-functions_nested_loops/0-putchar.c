@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
-* main - Prints _putchar
+* main - Prints the char c to stdout
 *
 * Return: 0
 */
-int _putchar(char c);
+int _putchar(char c)
 {
 	return (&c);
 }
