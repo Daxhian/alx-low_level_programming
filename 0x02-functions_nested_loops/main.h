@@ -1,7 +1,4 @@
-#include <stdio.h>
-
-int _putchar()
+int _putchar(int i)
 {
-	printf("_putchar\n");
-	return (0);
+	return (i);
 }
