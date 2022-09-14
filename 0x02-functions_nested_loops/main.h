@@ -1,4 +1,4 @@
-char _putchar(char i)
+char putchar(char i)
 {
 	return (i);
 }
