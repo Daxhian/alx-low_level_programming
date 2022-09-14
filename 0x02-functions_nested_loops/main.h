@@ -1,5 +1,11 @@
-char task0()
+int void print_alphabet(void)
 {
-	char i[] = "_putchar";
-	return (i);
+	int a;
+
+	for(a = 'a'; a <= 'z'; a++)
+	{
+		putchar(a);
+		putchar("\n");
+	}
+	return (a);
 }
