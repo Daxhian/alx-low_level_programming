@@ -6,10 +6,7 @@
 *
 * Return: 0
 */
-int main(void)
+int _putchar(char c);
 {
-	int c = _putchar(_putchar);
-	
-	printf("%s\n", c);
-	return (0);
+	return (&c);
 }
