@@ -10,17 +10,16 @@
 */
 int _islower(int c)
 {
-	int c;
 	int checker = islower(c);
 	int lower = 1;
 	int upper = 0;
 
 	if (checker > 0)
 	{
-		return ("%d", lower);
+		return (lower);
 	}
 	else
 	{
-		return ("%d", upper);
+		return (upper);
 	}
 }
