@@ -8,7 +8,7 @@
 *
 * Return: the sum of both arguments (integers)
 */
-int add(int, int)
+int add(int n1, int n2)
 {
 	int n1;
 	int n2;
