@@ -19,11 +19,11 @@ void times_table(void)
 			product = m_ier * m_cand;
 			if (m_ier < 9)
 			{
-				putchar(product);
+				printf("%d, ", product);
 			}
 			else
 			{
-				_putchar(product);
+				printf("%d\n", product);
 			}
 		}
 	}
