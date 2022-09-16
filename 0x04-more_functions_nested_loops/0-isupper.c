@@ -9,20 +9,13 @@
 */
 int _isupper(int c);
 {
-	int checker = isupper(c);
 
-	if  (checker = 1)
+	if  (c > 'A' && c < 'Z')
 	{
-		_putchar(c);
-		_putchar(':');
-		_putchar(' ');
-		_putchar(checker);
+		return (1);
 	}
 	else
 	{
-		_putchar(c);
-		_putchar(':');
-		_putchar(' ');
-		_putchar(checker);
+		return (0);
 	}
 }
