@@ -2,15 +2,14 @@
 
 /**
 * mul - multiplies two integers
-* @a: second integer is given
-* @b: first integer is given
+* @a: first integer is given
+* @b:second integer is given
 *
-* Return: Always 0
+* Return: product of multiplication
 */
 int mul(int a, int b)
 {
 	int product = a * b;
 
-	_putchar(product);
-	return (0);
+	return (product);
 }
