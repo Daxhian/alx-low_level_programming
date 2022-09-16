@@ -7,7 +7,7 @@
 */
 void print_numbers(void);
 {
-	int a, b;
+	char a, b;
 
 	if (a = '0'; a <= '9'; a++)
 	{
