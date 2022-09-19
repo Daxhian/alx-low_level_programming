@@ -9,7 +9,7 @@
  */
 void print_rev(char *s)
 {
-	int len = strlen(str); /* Variable to get the length of string */
+	int len = strlen(s); /* Variable to get the length of string */
 	int i;
 
 	for (i = len; i > 0; i--)
