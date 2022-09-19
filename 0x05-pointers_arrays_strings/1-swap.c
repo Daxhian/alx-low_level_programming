@@ -1,7 +1,3 @@
-/**
- * File: 1-swap.c
- * Auth: Destiny Salami
- */
 #include "main.h"
 
 /**
