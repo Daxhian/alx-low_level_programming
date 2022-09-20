@@ -12,9 +12,12 @@ void print_rev(char *s)
 	int len = strlen(s); /* Variable to get the length of string */
 	int i;
 
-	for (i = len; i >= 0; i--)
+	
+	i = len - 1;
+	while (i >= 0)
 	{
 		_putchar(s[i]);
+		i--;
 	}
 	_putchar('\n');
 }
