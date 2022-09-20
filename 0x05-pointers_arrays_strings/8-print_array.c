@@ -6,16 +6,16 @@
  *               followed by a new line.
  * @a: name of array
  * @n: number of elements to be printed
- * 
+ *
  * Return: void
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int i; n_i = n - 1;
 
-	for  (i = 0; i <= n; i++)
+	for  (i = 0; i <= n_i; i++)
 	{
-		if (i == n)
+		if (i == n_i)
 			printf("%d", a[i]);
 		else
 			printf("%d, ", a[i]);
