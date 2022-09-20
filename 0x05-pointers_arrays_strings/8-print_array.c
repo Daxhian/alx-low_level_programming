@@ -4,26 +4,21 @@
 /**
  * print_array - prints n elements of an array of integers
  *               followed by a new line.
- * @a: accepts integer
- * @n: accepts integer
+ * @a: name of array
+ * @n: number of elements to be printed
  * 
  * Return: void
  */
 void print_array(int *a, int n)
 {
-	int arraySize = sizeof(n);
-	int intSize = sizeof(n[0]);
-	int len = arraySize / intSize;
 	int i;
 
-	for  (i = 0; i < len; i++)
+	for  (i = 0; i <= n; i++)
 	{
-		int last = len - 1;
-
-		if (i == last)
-			printf("%d", n[i]);
+		if (i == n)
+			printf("%d", a[i]);
 		else
-			printf("%d, ", n[i]);
+			printf("%d, ", a[i]);
 	}
-
+	_putchar('\n');
 }
